@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <nav>
+        <a href="../index.html">HOME</a>
+        <ul>
+            <li id='dropdown'>
+                <a href="">TOPICS</a>
+                <ul id='dropdown-menu'>
+                    <li><a href="hover.html">Hover</a></li>
+                    <li><a href="">Form</a></li>
+                    <li><a href="">Multimedia</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="form-container">
+        <h1>FORM</h1>
+
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname">
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="intersex">Intersex</option>
+                <option value="trans">Trans</option>
+                <option value="Non-confirming">Non-Conforming</option>
+                <option value="Personal">Personal</option>
+                <option value="Eunuch">Eunuch</option>
+            </select>
+
+            <div id="submit-container">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

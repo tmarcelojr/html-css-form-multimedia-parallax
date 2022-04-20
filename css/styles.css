@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    height: 50px;
+    background-color:antiquewhite;
+    /* border: 1px solid red; */
+    line-height: 50px;
+}
+
+nav > a, ul {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    /* width: 50px; */
+    margin-left: 10px;
+    /* background-color: red; */
+    height: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#dropdown:hover {
+    background-color: lightslategray;
+}
+
+#dropdown-menu {
+    display: none;
+    position: absolute;
+    width: 130px;
+    left: 47px;
+    top: 50px;
+    background-color: lightslategray;
+}
+
+/* 1 */
+/* #dropdown-menu:hover {
+    display: block;
+} */
+
+#dropdown:hover #dropdown-menu {
+    display: block;
+    z-index: 1;
+}
+
+#dropdown-menu > li > a:hover {
+    color: white;
+}
+
+/* LANDING IMAGE CONTAINER */
+#landing-img {
+    background-image: url("https://images.unsplash.com/photo-1521161908453-1cacd0215437?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    background-size: cover;
+    height: 95vh;
+    text-align: right;
+}
+
+#landing-txt {
+    font-size: 5em;
+    margin-right: 5%;
+}
+
+/* ===== HOVER ===== */
+#hover-container {
+    text-align: center;
+    /* margin-right: 50%; */
+    /* margin: 0 auto; */
+}
+
+#hover-txt-color:hover {
+    color: teal;
+}
+
+#hover-txt-size:hover {
+    font-size: 150%;
+}
+
+#hover-txt-bg-color:hover {
+    background-color:lavender;
+}
+
+#hover-txt-font-family:hover {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#hover-txt-decoration:hover {
+    text-decoration:line-through;
+}
+
+img {
+    width: 20%;
+}
+
+#cat-img:hover {
+    filter: grayscale(100%);
+}
+
+#pug-glasses:hover {
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+#chihuahua:hover {
+    transform: scale(2.5);
+    transition: 1s ease;
+}
+
+/* ===== FORM ===== */
+#form-container {
+    border: 1px solid black;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* form {
+    margin: 10px;
+} */
+
+input, label {
+    display: block;
+}
+
+#submit-container {
+    text-align: right;
+}
+
+/* ===== PARALLAX ===== */
+.h1-space {
+    margin: 400px;
+}
+
+#h2-space, .h1-space {
+    font-size: 5em;
+    text-align: center;
+    color:dimgray;
+}
+
+.para {
+    background: url("https://i.pinimg.com/originals/02/f2/64/02f2649eaa7743a8e0a117c3e0a386ee.jpg") 100% fixed;
+}
+
+.parainner {
+    padding: 400px;
+}
+
+/* ===== MULTIMEDIA ===== */
+#multimedia-container {
+    text-align: center;
+}
+
+#multimedia-container > * {
+    margin: 20px 0;
+}
